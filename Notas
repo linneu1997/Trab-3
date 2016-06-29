@@ -25,7 +25,28 @@ void consult (){
     exit(1);
     }
   else {
+  
+int main (){
+  int acao = 0;
+  printf ("qual operacao deseja realizar?\n");
+  printf ("1 - Consultar Aluno\n");
+  printf ("2 - Adicionar Aluno\n");
+  printf ("3 - Sair\n");
+  scanf ("%d", &acao);
+  if (acao == 1){
+    consult();
+    }
+  if (acao == 2){
+    add();
+    }
+  if (acao == 3){
     
+    }
+  if (acao != 1 && acao != 2 && acao != 3){
+    printf ("acao invalida.\n");
+    }
+  return 0;
+  }
 
   
   
