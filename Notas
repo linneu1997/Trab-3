@@ -1,13 +1,33 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+FILE *f
+
 struct notas {
   char nome[100];
-  float prova;
-  float trabalho;
+  float prova[10];
+  float trabalho[10];
   }
   
-int main
+void add (){
+  f = fopen ("notas.txt", "w");
+  if (f == NULL){
+    printf ("Erro ao ler o arquivo\n");
+    exit(1);
+    }
+  else {
+    
+
+void consult (){
+  f = fopen ("notas.txt", "r");
+  if (f == NULL){
+    printf ("Erro ao ler o arquivo\n");
+    exit(1);
+    }
+  else {
+    
+
+  
   
 
 
