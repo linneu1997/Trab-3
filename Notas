@@ -7,7 +7,30 @@ struct notas {
   float trabalho;
   }
   
-int main
+void incluir_aluno();
+void consultar_aluno();
+void remover_aluno();
+  
+int main() {
+  int opcao = 0;
+  while (opcao != 4) {
+    printf("O que deseja fazer?\n");
+    printf("(1) - Incluir aluno\n(2) - Consultar aluno\n(3) - Remover aluno\n(4) - Sair\n");
+    if (opcao == 1) {
+  
+    }
+    else if (opcao == 2) {
+  
+    }
+    else if (opcao == 3) {
+  
+    }
+  }
+  
+  return 0;
+}
+
+
   
 
 
