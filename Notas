@@ -1,4 +1,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+struct notas {
+  char nome[100];
+  float prova;
+  float trabalho;
+  }
+  
+  
+
 
