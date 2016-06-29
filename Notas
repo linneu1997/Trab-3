@@ -7,6 +7,7 @@ struct notas {
   float trabalho;
   }
   
+int main
   
 
 
