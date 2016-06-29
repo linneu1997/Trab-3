@@ -7,10 +7,6 @@ struct notas {
   float trabalho;
   }
   
-void incluir_aluno();
-void consultar_aluno();
-void remover_aluno();
-  
 int main() {
   int opcao = 0;
   while (opcao != 4) {
